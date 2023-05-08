@@ -1,0 +1,36 @@
+:root {
+    --primaryColor:#f15025;
+    --secondaryColor: green;
+    --mainTransition: all 2s linear;
+    --mainSpacing: 5px
+}
+
+h1 {
+    color: var(--primaryColor);
+}
+
+h2 {
+    color: var(--primaryColor);
+}
+
+h3 {
+    color: var(--primaryColor);
+    transition: var(--mainTransition);
+}
+
+p {
+    letter-spacing: var(--mainSpacing);    
+    transition: var(--mainSpacing);
+}
+
+h3:hover {
+    color: var(--secondaryColor);
+}
+
+div {
+    --primaryRed:red;
+}
+
+.main-text {
+    color: var(--primaryRed);
+}
